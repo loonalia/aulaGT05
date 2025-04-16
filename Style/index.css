@@ -11,7 +11,7 @@
 header {
     color: #fff;
     display: flex;
-    background-color: rgb(106, 87, 231);
+    background-color: #6a57e7;
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
@@ -135,6 +135,20 @@ h2 > a {
     font-size: 28px;
     font-weight: 600;
 }
+
+footer {
+    background-color: #6a57e7;
+    color: #fff;
+}
+
+.nav-footer {
+    color: #fff;
+}
+
+.nav-footer a:hover {
+    text-decoration: underline;
+}
+
 /* (width <= 998px) ou (max-width: 998px) Tablet deitado */
 @media screen and (width <= 998px) {
     header {
