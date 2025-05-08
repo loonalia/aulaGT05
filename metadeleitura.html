@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./index.css">
     <title>Cards</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="h-screen">
     <header class="bg-[#6a57e7] text-white">
         <h1 class="font-bold text-2xl">Livraria GT</h1>
         <form class="form-header">
-            <input type="text">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="text" class="bg-white text-black pl-3">
+            <button class="bg-white h-10 flex"><i class=" text-black fa-solid fa-magnifying-glass"></i></button>
         </form>
         <nav class="nav-header">
             <ul class="lista-links">
@@ -27,14 +28,14 @@
                 <i>Categorias</i>
             </ul>
             <ul>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li class="lista-icone"><i class="fa-solid fa-bars"></i></li>
+                <li><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></li>
+                <li class="lista-icone"><i class="fa-solid fa-bars style=color: #ffffff;"></i></li>
             </ul>
         </nav>
     </header>
-    <main class="h-full">
+    <main class=" h-full">
         <section class="section-cards">
-            
+
         </section>
     </main>
     <footer class="bg-[#6a57e7]">
